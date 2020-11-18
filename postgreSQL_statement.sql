@@ -1,0 +1,1 @@
+create table chats(id bigserial not null primary key, Owner varchar(255) not null unique, body varchar(255) not null unique);
